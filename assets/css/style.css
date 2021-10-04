@@ -63,8 +63,18 @@ a {
 /* sec about me styles*/
 .sec1 {
     padding: 20px;
+    margin-top: 200px;
 }
-.me p{
+/*hr{
+    margin-top: -13px;
+    width: 700px;
+    color:#9f7928 ;
+}*/
+.me{
+    overflow: auto;
+}
+
+.me {
     display: inline-flex;
     width: 700px;
     margin: 0 300px 30px auto;
@@ -74,10 +84,24 @@ a {
     text-align: left;
     
 }
+.me img {
+    width: 20%;
+    
+    float: left;
+  
+}
+.about-me-p{
+    padding: 10px;
+   width: 80%;
+   float: right;
+}
 .sec1 h2{
     display: inline-block;
     font-size: 30px;
     margin-left: 200px;
+    border-width: 20px;
+    background-color: white;
+    
 }
 
 /* end of sec about me styles */
@@ -90,7 +114,7 @@ footer{
     
     list-style-type: none;
     padding-top: 15px;
-    margin-right: 300px;
+    margin: 0 380px 30px auto;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
