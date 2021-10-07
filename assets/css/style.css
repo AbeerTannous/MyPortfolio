@@ -8,10 +8,26 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    justify-content: flex-start;
+    justify-content: center;
 }
+h2{
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 200px;
+    margin-right: 100px;
+
+   
+}
+a {
+    color: black;
+    text-decoration: none;
+     
+  }
 /* header styles start here */
 .header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
@@ -19,45 +35,39 @@ body{
 }
 
 .header h1 {
-    display: inline-block;
+    font-weight: bold;
     font-size: 35px;
-}
-
-.header h1 {
+    margin: 0;
     color: black;
 }
-nav{
-    display: flex;
-    
-  
-}
 
+/*nav{
+    display: flex;
+     
+}
+*/
 .header nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    margin: 7px 0;
 }
 
 .header nav ul {
-    list-style-type: none;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
     
     
 }
 
 .header nav ul li {
-    display: inline-block;
-    margin-left: 25px;
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 1.55vw;
    
 }
 
-a {
-    color: black;
-    text-decoration: none;
-   
-}
+
 /* end of header styles */
 
 /* sec about me styles*/
@@ -95,16 +105,68 @@ a {
    width: 80%;
    float: right;
 }
-.sec1 h2{
+/*.sec1 h2{
     display: inline-block;
     font-size: 30px;
     margin-left: 200px;
-    border-width: 20px;
-    background-color: white;
+
     
-}
+}*/
 
 /* end of sec about me styles */
+
+/* section my work styles starts here*/
+
+.mywork {
+   
+   flex-wrap: wrap;
+ 
+   
+}
+
+
+
+.main-project {
+    width: 40%;
+    flex: 1 0 0;
+    
+    border-style: solid;
+    border-color: #9f7928;
+    
+    background-color: #9f7928;
+    margin: 5px;
+    float: right;
+
+
+}
+.main-project img{
+    width: 100%;
+    min-width: 50px;
+
+   
+    
+}
+.project {
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+   
+    border-style: solid;
+    border-color: #9f7928;
+    background-color: #9f7928;
+    margin: 5px;
+   
+}
+.project img{
+    width: 100%;
+    min-width: 50px
+}
+
+.mywork .project a{
+    width: 40%;
+}
+
+/*end of my work section/
 
 /* footer styles start here*/
 footer{
@@ -125,12 +187,12 @@ footer{
     display:inline-flex;
     margin-left: 50px; 
 }
-.contact-info h2 {
+/*.contact-info h2 {
     
     display: inline-block;
     font-size: 30px;
     margin-left: 200px;
-}
+}*/
 
 /* end of footer styles*/
 @media screen and (max-width: 768px) {
