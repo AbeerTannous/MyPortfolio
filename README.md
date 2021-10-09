@@ -1,7 +1,7 @@
 # MyPortfolio
 
 ## purpose
- A websitethat show a Portfolio for work samples 
+ A website that shows a Portfolio for work samples 
 
 
 ## build with 
