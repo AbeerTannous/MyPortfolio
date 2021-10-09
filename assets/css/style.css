@@ -5,6 +5,7 @@
     margin: 0;
 }
 body{
+    background-color: #FFFFAC ;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -17,6 +18,7 @@ a {
     text-decoration: none;
      
   }
+  
 /* header styles start here */
 .header {
     display: flex;
@@ -34,6 +36,7 @@ a {
     margin: 0;
     color: black;
 }
+
 .header nav {
     margin: 7px 0;
 }
@@ -121,10 +124,7 @@ a {
     border-color: #9f7928;
     background-color: #9f7928;
     text-align: center;
-    margin: -5px;
-    
-  
-   
+    margin: -5px;   
 }
 
 .project img{
@@ -137,7 +137,6 @@ a {
 .project{
     margin:5px;
     transition: transform .2s;
-    
         
 }
 
@@ -153,20 +152,21 @@ footer{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-left: 200px;
+    margin-left: 180px;
     
 }
 .contact-info ul {
     
     list-style-type: none;
     padding-top: 15px;
-    margin: 0 380px 30px auto;
+    margin-right: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     text-align: left;
    
 }
 .contact-info ul li {
+    margin-right: 50px;
     display:inline-flex;
     margin-left: 50px; 
 }
@@ -178,28 +178,28 @@ footer{
         padding-bottom: 0;
         justify-content: center;
         
-      }
+    }
     
-      header h1 {
+    header h1 {
         width: 100%;
         text-align: center;
-      }
+    }
     .header nav{
         margin-left: 300px;
     }
       
-      header nav ul {
+    header nav ul {
         
         margin-top: 20px;
         width: 100%;
         justify-content: center;
         
-      }
+    }
     
-      header nav ul li a {
+    header nav ul li a {
         font-size: 20px;
         
-      }
+    }
     
     .sec1{
         margin-left: 100px;
@@ -242,9 +242,9 @@ footer{
     .contact-info ul{
         flex: 1;
         margin: 0px;
-  }
+    }
   .contact-info ul li {
       padding-top: 20px;
        margin: 5px;
-  }
+    }
 }
