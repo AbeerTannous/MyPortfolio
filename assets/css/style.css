@@ -28,6 +28,7 @@ a {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
                 radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+    
 }
 
 .header h1 {
@@ -63,8 +64,7 @@ a {
 /* sec about me styles*/
 
 .sec1{
-   
-    margin-top: 100px;
+    
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
@@ -72,6 +72,14 @@ a {
     align-content: space-between;
     margin-left: 200px;
     align-items: flex-start;
+    border-style: solid;
+    border-color: #D1B464;
+    border-left: 0px;
+    border-right: 0;
+    padding: 20px;
+    margin-right: 100px;
+    margin-top: 100px;
+    
 }
 
 .sec1 img {
@@ -97,13 +105,19 @@ a {
 /* section my work styles starts here*/
 
 .mywork {
-   display: flex;
-   flex-wrap: wrap;
-   margin-top: 100px;
-   margin-bottom: 100px;
-   text-align: -webkit-center;
-   margin-left: 200px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: -webkit-center;
+    margin-left: 200px;
+    margin-right: 100px;
+    padding: 20px;
+    border-left: 0px;
+    border-right: 0px;
 }
+
 
 .mywork h2{
     
@@ -149,12 +163,19 @@ a {
 
 /* footer styles start here*/
 footer{
+    margin-bottom: 100px;
+    border-color: #D1B464;
+    border-style: solid;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-left: 180px;
-    
+    margin-left: 200px;
+    margin-right: 100px;
+    padding: 20px;
+    border-left: 0px;
+    border-right: 0px;
 }
+
 .contact-info ul {
     
     list-style-type: none;
@@ -168,7 +189,7 @@ footer{
 .contact-info ul li {
     margin-right: 50px;
     display:inline-flex;
-    margin-left: 50px; 
+    margin-left: 0px;
 }
 
 /* end of footer styles*/
