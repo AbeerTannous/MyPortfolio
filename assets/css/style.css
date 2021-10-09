@@ -201,8 +201,6 @@ footer{
         
       }
     
-      
-    
     .sec1{
         margin-left: 100px;
     }
@@ -224,6 +222,7 @@ footer{
        
    }
 }
+
 @media screen and (max-width: 768px) {
     section {
       padding: 30px 15px;
@@ -248,7 +247,4 @@ footer{
       padding-top: 20px;
        margin: 5px;
   }
-}
-@media screen and (max-width: 575px){
-    
 }
