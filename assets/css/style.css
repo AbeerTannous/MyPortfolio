@@ -48,11 +48,12 @@ a {
 }
 
 .header nav ul li {
-    margin: 0 30px;
+    padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
    
 }
+
 
 /* end of header styles */
 
@@ -66,7 +67,7 @@ a {
     flex-direction: row;
     flex-wrap: nowrap;
     align-content: space-between;
-    margin-left: 100px;
+    margin-left: 200px;
     align-items: flex-start;
 }
 
@@ -98,10 +99,11 @@ a {
    margin-top: 100px;
    margin-bottom: 100px;
    text-align: -webkit-center;
+   margin-left: 200px;
 }
 
 .mywork h2{
-    margin-left: 100px;
+    
     margin-right: 200px;
 }
 
@@ -119,6 +121,7 @@ a {
     border-color: #9f7928;
     background-color: #9f7928;
     text-align: center;
+    margin: -5px;
     
   
    
@@ -150,7 +153,7 @@ footer{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-left: 100px;
+    margin-left: 200px;
     
 }
 .contact-info ul {
@@ -170,9 +173,82 @@ footer{
 
 /* end of footer styles*/
 
-@media screen and (max-width: 768px) {
-    body,
-    nav {
-      flex-direction: column;
+@media screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        
+      }
+    
+      header h1 {
+        width: 100%;
+        text-align: center;
+      }
+    .header nav{
+        margin-left: 300px;
     }
+      
+      header nav ul {
+        
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+        
+      }
+    
+      header nav ul li a {
+        font-size: 20px;
+        
+      }
+    
+      
+    
+    .sec1{
+        margin-left: 100px;
+    }
+    .mywork{
+        margin-left: 0px;
+        justify-content:end;
+    }
+    
+   .contact-info ul{
+       flex: 1;
+       padding-top: 0px;
+       margin: 0px;;
+   }
+   .contact-info h2{
+       margin-left: 90px;
+   }
+   .contact-info{
+       margin:0px
+       
+   }
+}
+@media screen and (max-width: 768px) {
+    section {
+      padding: 30px 15px;
+    }
+    .header nav{
+        margin-left: 200px;
+    }
+    .sec1{
+        margin-left: 50px;
+    }
+    .about-me-p{
+        margin-left: 50px;
+    }
+    .mywork h2{
+        margin-right: 0px;
+    }
+    .contact-info ul{
+        flex: 1;
+        margin: 0px;
+  }
+  .contact-info ul li {
+      padding-top: 20px;
+       margin: 5px;
+  }
+}
+@media screen and (max-width: 575px){
+    
 }
